@@ -1,4 +1,4 @@
 package domain.weather;
 
-public class AbstractWeatherCondition {
+public abstract AbstractWeatherCondition {
 }
