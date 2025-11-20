@@ -4,7 +4,8 @@ import domain.weather.WeatherData;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.List;
 
 public interface WeatherService {
-    WeatherData getWeatherFor(double latitude, double longitude) throws URISyntaxException, IOException, InterruptedException;
+    List<WeatherData> getWeatherFor() throws URISyntaxException, IOException, InterruptedException;
 }
